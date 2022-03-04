@@ -1,0 +1,3 @@
+C:/Users/boray/CLionProjects/All_labs225/cmake-build-debug/CMakeFiles/All_labs225.dir
+C:/Users/boray/CLionProjects/All_labs225/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/boray/CLionProjects/All_labs225/cmake-build-debug/CMakeFiles/rebuild_cache.dir
