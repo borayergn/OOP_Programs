@@ -5,7 +5,7 @@
 using namespace std;
 /*
  ***************************************************
- LAB 3 QUESTION 1 : NORMAL CONSTRUCTOR QUESTION
+ NORMAL CONSTRUCTOR QUESTION
  ***************************************************
 class Square{
 
@@ -47,7 +47,7 @@ int main() {
 }
 
  ***************************************************
- LAB 3 QUESTION 2 : FRIEND CLASS QUESTION
+ FRIEND CLASS QUESTION
  ***************************************************
 
 class Increment;
@@ -117,7 +117,7 @@ incObj.change(square);
 }
 
 ********************************
-LAB 3 QUESTION 4 : QUEUE QUESTION
+ QUEUE QUESTION
 ********************************
 const string NOT_A_STRING = "";
 class Queue{
@@ -183,7 +183,7 @@ int main(){
     return 0;
 }
 ************************************
-LAB 4 QUESTION 1 : COPY CONSTRUCTOR
+COPY CONSTRUCTOR
 ************************************
 
 class Person{
@@ -226,7 +226,7 @@ display(person2);
     return 0;
 }
 *******************************
-LAB 4 QUESTION 2 : COMPOSITION
+COMPOSITION
 *******************************
 
 class Birthday{
@@ -277,7 +277,7 @@ int main(){
     return 0;
 }
 *************************************************
-LAB 4 QUESTION 3 : RETURNING THIS (CHAIN METHOD)
+RETURNING THIS (CHAIN METHOD)
 *************************************************
 
 
@@ -305,7 +305,7 @@ int main(){
 
 }
 *************************************************
-LAB 4 QUESTION 4 : NORMAL QUESTION
+NORMAL QUESTION
 *************************************************
 
 
@@ -364,7 +364,7 @@ int main(){
 
 }
 ***********************************
-LAB 5 QUESTION 1 : AGGREGATION
+AGGREGATION
 ***********************************
 
 
@@ -420,7 +420,7 @@ int main(){
 
 }
 ***********************************************
-LAB 5 QUESTION 2 : STATIC VARIABLE AND FUNCTION
+STATIC VARIABLE AND FUNCTION
 ***********************************************
 
 
@@ -469,7 +469,7 @@ int main(){
 }
 
 ****************************************************************************
-LAB 5 QUESTION 3 : STRING CLASS MANIPULATION (MEMBER OPERATOR OVERLOAD OF -)
+ STRING CLASS MANIPULATION (MEMBER OPERATOR OVERLOAD OF -)
 ****************************************************************************
 
 
@@ -504,7 +504,7 @@ string2.print();
 }
 
 **************************************************************
-LAB 5 QUESTION 4 : OPERATOR OVERLOAD (INPUT OUTPUT AS FRIEND.)
+ OPERATOR OVERLOAD (INPUT OUTPUT AS FRIEND.)
 **************************************************************
 
 
@@ -564,7 +564,7 @@ int main(){
     cout<<board1<<board2<<board3;
 }
 **************************************************************
-LAB 6 QUESTION 1 : POLYMORPHISM AND INHERITANCE
+POLYMORPHISM AND INHERITANCE
 **************************************************************
 
 
@@ -644,7 +644,7 @@ int main ()
 }
 
 ****************************************
-LAB 6 QUESTION 2 : MULTIPLE INHERITANCE
+ MULTIPLE INHERITANCE
 ****************************************
 
 
@@ -686,7 +686,7 @@ int main(){
 }
 
 ********************************************************
-LAB 6 QUESTION 3 : CUSTOM STACK STRUCTURE WITH TEMPLATE
+ CUSTOM STACK STRUCTURE WITH TEMPLATE
 ********************************************************
 
 
@@ -779,7 +779,7 @@ int main(){
 }
 
 *************************************************
-LAB 7 QUESTION 1 : POLYMORPHISM AND ABSTRACTION
+ POLYMORPHISM AND ABSTRACTION
 *************************************************
 
 
@@ -881,7 +881,7 @@ int main(){
 }
 
 **********************************
-LAB 7 QUESTION 2 : FILE HANDLING
+ FILE HANDLING
 *********************************
 
 int main(){
@@ -921,7 +921,7 @@ int main(){
 
 
 ***************************************
-LAB 7 QUESTION 3 : EXCEPTION HANDLING
+EXCEPTION HANDLING
 ***************************************
 
 class NegativeError : public exception{
@@ -989,74 +989,10 @@ int main(){
     }
 
 
-
-
-
-
-
     return 0;
 }
 
 
-//2n+1 sequence recursion (n+1'th odd number)
-
-int sequence(int n){
-    if(n == 0){
-        return 1;         //Basis step (initial condition(s))
-    }
-
-    return((sequence(n-1)+2)); //Recursive step (general rule of recursive function)
-
-}
-
-//power of a number recursion
-
-int power(int number,int pow){
-    if (pow == 0){
-        return 1;
-    }                           //Basis step (initial condition(s))
-    if (pow == 1){
-        return number;
-    }
-  //--------------------------------------------
-  return (power(number,pow-1) * number);  // recursive step(general rule of recursive function)
-
-}
-
-//fibonacci recursion
-
-int fibonacci(int step){
-    if(step == 1){
-        return 0;
-    }
-    if(step == 2){
-        return 1;
-    }
-
-    return ((fibonacci(step-2)+ fibonacci((step-1))));
-}
-
-
-int main(){
-
-cout<<power(2,5)<<endl;
-
-cout<<fibonacci(5)<<endl;
-
-cout<<sequence(6)<<endl;
-
-
-
-
-
-
-
-
-
-
-
-    return 0;
-}
 
  */
 
